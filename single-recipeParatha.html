@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+
+        <div class="dark-mode-switch">
+          <input type="checkbox" id="dark-mode-toggle" onclick="toggleDarkMode()">
+          <label for="dark-mode-toggle"></label>
+        </div>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=600"
+          class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Paratha with Curd and Pickle:</h2>
+          <p>
+            Paratha is a popular Indian flatbread that can be stuffed with
+            various fillings. In this recipe, we'll make plain whole wheat
+            parathas and serve them with yogurt (curd) and pickle. The
+            parathas are soft on the inside and crispy on the outside, making
+            them a perfect accompaniment to the tangy yogurt and flavorful
+            pickle.
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>10 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>20 min.</p>
+            </article>
+          </div>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <p>
+              Dry roast semolina until it turns golden brown. Set aside. Heat
+              oil in a pan, add mustard seeds. When they splutter, add curry
+              leaves, chopped onions, and green chilies. Sauté until onions
+              are translucent. Add mixed vegetables and cook for a few
+              minutes. Add roasted semolina, salt, and mix well. Pour in 2
+              cups of hot water while stirring continuously to avoid lumps.
+              Cover and cook on low heat until the upma is cooked through.
+              Serve hot. These recipes should give you a good starting point
+              for preparing these delicious Indian breakfast dishes at home.
+              Enjoy your meal!
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+
+            <ul>
+              <li>Whole wheat flour for paratha</li>
+              <li>Stuffing ingredients of choice (spiced potatoes, paneer, or minced meat)</li>
+              <li>Yogurt (curd)</li>
+              <li>Pickle</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span> Built by
+      Preeti , Pratham , Pranay
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

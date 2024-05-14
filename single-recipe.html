@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+
+        <div class="dark-mode-switch">
+          <input type="checkbox" id="dark-mode-toggle" onclick="toggleDarkMode()">
+          <label for="dark-mode-toggle"></label>
+        </div>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=600"
+          class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Masala Dosa</h2>
+          <p>
+            A thin, crispy rice crepe filled with a spiced potato mixture. It
+            is often served with coconut chutney and tangy sambar (a
+            lentil-based vegetable stew). Ingredients: Rice and urad dal
+            batter, potatoes, onions, mustard seeds, curry leaves, turmeric,
+            and spices.
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>10 min.</p>
+            </article>
+          </div>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <p>
+              Heat oil in a pan, add mustard seeds. When they splutter, add
+              curry leaves and chopped onions. Sauté until onions are golden
+              brown. Add turmeric powder and mashed potatoes. Mix well. Season
+              with salt and cook for a few minutes. Set aside. Heat a
+              non-stick pan, pour a ladle of dosa batter, and spread it in a
+              circular motion. Drizzle oil around the edges, cook until the
+              dosa is crispy and golden brown. Place a portion of the potato
+              mixture in the center, fold the dosa, and serve with coconut
+              chutney and sambar.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <ul>
+              <li>1 cup rice and urad dal batter (fermented)</li>
+              <li>2 large potatoes, boiled and mashed</li>
+              <li>1 onion, finely chopped</li>
+              <li>1 tsp mustard seeds</li>
+              <li>A handful of curry leaves</li>
+              <li>1/2 tsp turmeric powder</li>
+              <li>Salt to taste</li>
+              <li>Oil for cooking</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span> Built by
+      Preeti , Pratham , Pranay
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
